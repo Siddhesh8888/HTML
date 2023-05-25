@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div
+      style="border: 2px solid black; padding-left: 20px; padding-bottom: 20px"
+    >
+      <form>
+        <h1>Internet Usage Survey</h1>
+        <p>
+          This survey is being conducted to help identify the Internet usage
+          patterns of our customers. <br />
+          Please take a few moments to complete and submit this short form.
+          Thank you for your cooperation.
+        </p>
+
+        <table cellspacing="50px">
+          <tbody>
+            <tr>
+              <td>
+                What type of Internet connection do you have?<br />
+                (Select One)
+              </td>
+              <td>
+                <select name="connection" id="connection" size="4">
+                  <option value="Dial-up">Dial-up</option>
+                  <option value="DSL">DSL</option>
+                  <option value="High Speed Cable">High Speed Cable</option>
+                  <option value="Other">Other</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td>What type of computer do you use most at home?</td>
+              <td>
+                <input
+                  type="radio"
+                  name="computer"
+                  id="computer"
+                  value="Desktop"
+                />Desktop
+                <input
+                  type="radio"
+                  name="computer"
+                  id="computer"
+                  value="Laptop"
+                />Laptop
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                How would you describe your mam reason for using the Internet?
+              </td>
+              <td>
+                <input type="radio" name="reason" id="reason" />To do
+                work-related activities <br />
+                <input type="radio" name="reason" id="reason" />To do
+                school-related activities <br />
+                <input type="radio" name="reason" id="reason" />For
+                entertainment activities <br />
+                <input type="radio" name="reason" id="reason" />Other activities
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table cellpadding="50px">
+          <tbody>
+            <tr>
+              <td>
+                <fieldset>
+                  <legend>Type of sites visited</legend>
+                  <p>
+                    What types of web sites do you access most often? <br />
+                    Check all that apply.
+                  </p>
+                  <input
+                    type="checkbox"
+                    name="sites"
+                    id="sites"
+                    value="Self Improvement"
+                  />Self Improvement <br />
+                  <input
+                    type="checkbox"
+                    name="sites"
+                    id="sites"
+                    value="Entertainment"
+                  />Entertainment <br />
+                  <input
+                    type="checkbox"
+                    name="sites"
+                    id="sites"
+                    value="News and Sports"
+                  />News and Sports <br />
+                  <input
+                    type="checkbox"
+                    name="sites"
+                    id="sites"
+                    value="Reference"
+                  />Reference <br />
+                  <input
+                    type="checkbox"
+                    name="sites"
+                    id="sites"
+                    value="Email"
+                  />Email <br />
+                </fieldset>
+              </td>
+
+              <td>
+                <fieldset>
+                  <legend>Time spent using Internet</legend>
+                  <br />
+                  <p>During an average week how long do you spend online?</p>
+                  <input
+                    type="radio"
+                    name="week"
+                    id="week"
+                    value="0-3 Hours"
+                  />0-3 Hours <br />
+                  <input
+                    type="radio"
+                    name="week"
+                    id="week"
+                    value="4-6 Hours"
+                  />0-3 Hours <br />
+                  <input
+                    type="radio"
+                    name="week"
+                    id="week"
+                    value="7-10 Hours"
+                  />0-3 Hours <br />
+                  <input
+                    type="radio"
+                    name="week"
+                    id="week"
+                    value="11-14 Hours"
+                  />0-3 Hours <br />
+                  <input
+                    type="radio"
+                    name="week"
+                    id="week"
+                    value="15+ Hours"
+                  />0-3 Hours <br />
+                </fieldset>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Please comment on your opinions concerning Internet privacy and
+          safety.
+        </p>
+        <textarea name="comment" id="comment" cols="100" rows="5"></textarea>
+
+        <table cellpadding="10px">
+          <tbody>
+            <tr>
+              <td>First Name: <input type="text" size="50px" /></td>
+              <td>Last Name: <input type="text" /></td>
+            </tr>
+
+            <tr>
+              <td>Age: <input type="text" size="5px" /></td>
+              <td>Zip Code: <input type="text" /></td>
+            </tr>
+          </tbody>
+        </table>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit" value="submit1">Click to Submit</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="reset">Clear Form</button>
+      </form>
+    </div>
+  </body>
+</html>
